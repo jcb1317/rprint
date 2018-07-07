@@ -17,7 +17,7 @@ def rprint(text):
                 counter += 1
             except IndexError:
                 pass
-    print("\n")
+    print()
 
 
 rprint(" ".join(argv[1:]))
