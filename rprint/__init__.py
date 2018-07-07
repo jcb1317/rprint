@@ -14,3 +14,4 @@ def rprint(text):
                 counter += 1
             except IndexError:
                 pass
+    print()
